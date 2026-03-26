@@ -54,4 +54,4 @@ expense-tracker/
 
 1. Clone the repository:
 ```bash
-git clone [https://github.com/your-username/expense-tracker.git](https://github.com/chaitanyaCE/Expense-Tracker)
+git clone [https://github.com/chaitanyaCE/expense-tracker.git](https://github.com/chaitanyaCE/Expense-Tracker)
