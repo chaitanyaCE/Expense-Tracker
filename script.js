@@ -5,6 +5,10 @@ const transactionListEle = document.getElementById("transaction_list");
 const transactionFormEle = document.getElementById("transaction_form");
 const descriptionEle = document.getElementById("description");
 const amountEle = document.getElementById("amount");
+const netRevenuePercentEle = document.querySelector(
+  "#net_revenue_percentage p",
+);
+const netContainer = document.getElementById("net_revenue_percentage");
 
 let transactions = JSON.parse(localStorage.getItem("transactions")) || [];
 
@@ -75,6 +79,21 @@ function updateAccountSummary() {
   balanceEle.textContent = formatCurrency(total_balance);
   incomeAmountEle.textContent = formatCurrency(income);
   expenseAmountEle.textContent = formatCurrency(expense);
+
+  //calculate the net revenue percentage
+  let netPercent = 0;
+  if (income !== 0) {
+    netPercent = (total_balance / income) * 100;
+  }
+  netRevenuePercentEle.textContent = `${netPercent.toFixed(2)}%`;
+
+  netContainer.classList.remove("profit", "loss");
+
+  if (netPercent > 0) {
+    netContainer.classList.add("profit");
+  } else if (netPercent < 0) {
+    netContainer.classList.add("loss");
+  }
 }
 
 function formatCurrency(number) {
