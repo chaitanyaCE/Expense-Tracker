@@ -1,57 +1,66 @@
-# 💰 Expense Tracker
+💰 Expense Tracker
 
-A modern and responsive Expense Tracker web application built using **HTML, CSS, and Vanilla JavaScript**. It allows users to track income and expenses with real-time updates and persistent storage using localStorage.
+A modern and responsive Expense Tracker web application built using HTML, CSS, and Vanilla JavaScript. It allows users to track income and expenses with real-time updates and persistent storage using localStorage.
 
----
+🚀 Features
 
-## 🚀 Features
+Add income and expense transactions
 
-- Add income and expense transactions
-- Delete transactions
-- Real-time balance calculation
-- Separate income and expense summaries
-- Persistent data using browser localStorage
-- Clean, modern, and responsive UI
+Delete transactions
 
----
+Real-time balance calculation
 
-## 🛠️ Tech Stack
+Separate income and expense summaries
 
-- HTML5
-- CSS3 (Flexbox + Grid)
-- JavaScript (ES6)
-- LocalStorage API
+Net revenue percentage calculation
 
----
+Persistent data using browser localStorage
 
-## 📂 Project Structure
+Clean, modern, and responsive UI
 
+🛠️ Tech Stack
 
-expense-tracker/
+HTML5
+
+CSS3 (Flexbox + Grid)
+
+JavaScript (ES6)
+
+LocalStorage API
+
+📂 Project Structure
+
+Expense-Tracker/
 │
 ├── index.html
 ├── style.css
 └── script.js
 
 
----
+⚙️ How It Works
 
-## ⚙️ How It Works
+Enter a description and amount
 
-- Enter a description and amount
-  - Positive amount → Income
-  - Negative amount → Expense
-- Transactions are stored in localStorage
-- UI updates automatically:
-  - Balance
-  - Income
-  - Expenses
-  - Transaction list
+Positive amount → Income
 
----
+Negative amount → Expense
 
-## ▶️ Getting Started
+Transactions are stored in localStorage
 
-1. Clone the repository:
-```bash
-git clone [https://github.com/chaitanyaCE/expense-tracker.git](https://github.com/chaitanyaCE/Expense-Tracker)
+UI updates automatically:
+
+Balance
+
+Income
+
+Expenses
+
+Net Revenue Percentage
+
+Transaction list
+
+▶️ Getting Started
+
+Clone the repository:
+
+git clone [https://github.com/chaitanyaCE/Expense-Tracker.git](https://github.com/chaitanyaCE/Expense-Tracker.git)
