@@ -1,8 +1,8 @@
-#💰 Expense Tracker
+##💰 Expense Tracker
 
 A modern and responsive Expense Tracker web application built using HTML, CSS, and Vanilla JavaScript. It allows users to track income and expenses with real-time updates and persistent storage using localStorage.
 
-🚀 Features
+##🚀 Features
 
 Add income and expense transactions
 
@@ -28,7 +28,7 @@ JavaScript (ES6)
 
 LocalStorage API
 
-📂 Project Structure
+##📂 Project Structure
 
 Expense-Tracker/
 │
@@ -37,7 +37,7 @@ Expense-Tracker/
 └── script.js
 
 
-⚙️ How It Works
+##⚙️ How It Works
 
 Enter a description and amount
 
@@ -59,7 +59,7 @@ Net Revenue Percentage
 
 Transaction list
 
-▶️ Getting Started
+##▶️ Getting Started
 
 Clone the repository:
 
