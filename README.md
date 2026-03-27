@@ -4,18 +4,6 @@ A clean, responsive single-page expense tracking web app built with **HTML5**, *
 
 ---
 
-## 🚀 Live Demo
-
-> Coming soon — or clone it and run it locally!
-
----
-
-## 📸 Preview
-
-> Add a screenshot here once the project is deployed!
-
----
-
 ## ✨ Features
 
 - ➕ **Add Transactions** — log income or expenses with a description and amount
