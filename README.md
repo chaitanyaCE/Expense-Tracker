@@ -1,4 +1,4 @@
-💰 Expense Tracker
+#💰 Expense Tracker
 
 A modern and responsive Expense Tracker web application built using HTML, CSS, and Vanilla JavaScript. It allows users to track income and expenses with real-time updates and persistent storage using localStorage.
 
