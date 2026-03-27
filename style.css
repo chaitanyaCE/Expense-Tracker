@@ -82,8 +82,32 @@ h2 {
   transition: transform 0.2s ease;
 }
 
+.net_revenue_percentage {
+  text-align: center;
+  justify-content: center;
+  background: white;
+  border-radius: 1rem;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  color: #2d3436;
+  margin-bottom: 24px;
+  background: linear-gradient(135deg, #d1dbe8, #8395a7);
+}
+
+.profit {
+  background: linear-gradient(135deg, #a8d5ba, #6b8e23);
+}
+
+.loss {
+  background: linear-gradient(135deg, #f2a8a8, #a33b3b);
+}
+
 .income:hover,
-.expenses:hover {
+.expenses:hover,
+.net_revenue_percentage:hover {
   transform: translateY(-2px);
 }
 
@@ -99,8 +123,14 @@ h2 {
   font-weight: 500;
 }
 
+.net_revenue_percentage h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
 .income p,
-.expenses p {
+.expenses p,
+.net_revenue_percentage p {
   margin-top: 8px;
   font-size: 1.75rem;
   font-weight: 600;
