@@ -99,3 +99,12 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 > Built as part of my ongoing web development journey as a first-year Computer Engineering student. 🎓
+<div align="center">
+
+**Built with 💙 by [chaitanyaCE](https://github.com/chaitanyaCE)**
+
+*University of Waterloo | Computer Engineering*
+
+📧 Open to collaboration and feedback!
+
+</div>
